@@ -1,0 +1,15 @@
+[project]
+name = "openadmet-expansionrx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chemprop>=2.2.1",
+    "iterative-stratification>=0.1.9",
+    "lightning>=2.6.0",
+    "pandas>=2.3.3",
+    "rdkit>=2025.9.1",
+    "tensorboard>=2.20.0",
+    "torch>=2.9.1",
+]
