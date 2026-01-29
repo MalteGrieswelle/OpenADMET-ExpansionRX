@@ -26,6 +26,6 @@ Final predictions were obtained via a weighted average over all ensemble models,
 
 ### Chemical space
 
-I noticed that a large portion of the blind test challenge data lies in the top-right region of the property space, with very few or no training data points in between. I would expect this to make predictions particularly difficult, as many activity cliffs appear to be present for each endpoint.
+I noticed that a large portion of the blind test challenge data lies in the top-left region of the t-SNE plot, with very few or no training data points in between. I would expect this to make predictions particularly difficult, as also many activity cliffs appear to be present for each endpoint.
 
 ![tSNE](chemical_space_tsne.png)
